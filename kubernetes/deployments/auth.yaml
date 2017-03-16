@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: "steshaw/auth:0.1.0"
+          image: "steshaw/auth:0.2.0"
           ports:
             - name: http
               containerPort: 80
