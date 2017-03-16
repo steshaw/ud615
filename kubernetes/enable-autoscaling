@@ -1,0 +1,7 @@
+#!/bin/sh
+
+gcloud container clusters update k0 \
+  --zone asia-east1-a \
+  --enable-autoscaling \
+  --min-nodes=4 --max-nodes=9 \
+  "$@"
