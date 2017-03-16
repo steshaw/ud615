@@ -9,10 +9,16 @@ type User struct {
 type Users map[string]User
 
 var DB = Users{
-	"user": User{
-		Username: "user",
+	"fred": User{
+		Username: "fred",
 		// bcrypt has for "password"
 		PasswordHash: "$2a$10$KgFhp4HAaBCRAYbFp5XYUOKrbO90yrpUQte4eyafk4Tu6mnZcNWiK",
-		Email:        "user@example.com",
+		Email:        "fred@example.com",
+	},
+    "wilma": User{
+		Username: "wilma",
+		// bcrypt has for "password"
+		PasswordHash: "$2a$10$KgFhp4HAaBCRAYbFp5XYUOKrbO90yrpUQte4eyafk4Tu6mnZcNWiK",
+		Email:        "fred@example.com",
 	},
 }

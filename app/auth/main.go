@@ -15,7 +15,7 @@ import (
 	"github.com/udacity/ud615/app/user"
 )
 
-const version = "1.0.0"
+const version = "0.2.0"
 
 func main() {
 	var (
